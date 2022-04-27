@@ -6,9 +6,15 @@
 .env
 .env.backup
 .phpunit.result.cache
+.phpstorm.meta.php
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+_ide_helper.php
 /.idea
 /.vscode
+/public/css/app.css
+/public/fonts/vendor/
+/public/js/app.js
+

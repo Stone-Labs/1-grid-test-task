@@ -1,0 +1,62 @@
+.small_item {
+    padding: 5px;
+    margin: 5px;
+    border: solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.small_item .title {
+    font-size: large;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.small_item .content {
+    font-style: italic;
+    font-size: smaller;
+}
+.small_item .footer {
+    border-top: 1px solid grey;
+}
+
+.post_item .title {
+    font-size: large;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.post_item .content {
+
+}
+.post_item .buttons {
+    float: right;
+}
+
+.button_delete {
+    cursor: pointer;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    opacity: 0.83;
+    transition: opacity 0.6s;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The success message box */
+.alert.success {
+    background-color: #04AA6D;
+}
+
+/* The info message box */
+.alert.info {
+    background-color: #2196F3;
+}
+
+.text-danger {
+    color: #dc3545!important;
+}
